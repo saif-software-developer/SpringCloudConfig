@@ -98,14 +98,14 @@ The previous article (click here to visit it) has described how to use Spring Cl
 • Another approach organizes things by domain: customers, accounts, authentication, authorization, etc
 
 One thing i've noticed is that organizing by type/role works for small projects, but once they grow past a certain point cohesion starts to break down and you have a grab-bag of stuff in there.
-
 At that point organizing by domain produces greater coherence. The draw back is that enough of the domain needs to be understood/defined to organize that way. So for greenfield projects the structure will emerge over time; in a legacy application, it should all be there it just needs to be broken out.
 
 ####  7 taken literally (where are they used):
-• local storage is used in the browser
-• cookies are used both in the browser and in server-side logic
+ local storage is used in the browser
+  cookies are used both in the browser and in server-side logic
 
-####  8 spring uses proxies for session and request scopes. internally the scoped instance (non-proxy) would be stuffed into the thread handling the request and the proxy would pull the real instance from the thread. a combination of  proxy (either java's dynamic proxy or a cglib generated proxy) + thread locals
+####  8 spring uses proxies for session and request scopes. 
+internally the scoped instance (non-proxy) would be stuffed into the thread handling the request and the proxy would pull the real instance from the thread. a combination of  proxy (either java's dynamic proxy or a cglib generated proxy) + thread locals
 
 
 
