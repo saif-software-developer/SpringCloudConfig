@@ -2,9 +2,7 @@ I take technical interviews as a good opportunities to learn and exchange knowle
 
 Dealer.com experience was amazing, I worked with humble people who are always willing to help, and answer your questions, in this company, I start talking as "we", because we own the product, the success, the failure and we don't blame each others. I never felt that I was on my own over the last 5 years, I would carry this experience with me wherever I go, and I will always be proud of the people I worked with.
 
-For my tribe and family in Dealer.com, I love y'all, I appreciate each one of you for the amazing spirit that you have. 
-
-On a side note, one interviewer asked me few vague questions about Spring during one of the interviews, I took these questions and with some help from our beloved developer Jeff Glatz, I turned his questions into a github repository. 
+On a side note, one interviewer asked me few vague questions about Spring during one of the interviews, I took these questions and with some help from our Senior developer, I turned his questions into a github repository. 
 
 # SpringCloudConfig
 Refreshing the config changes with Spring Cloud Bus
