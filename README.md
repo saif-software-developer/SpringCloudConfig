@@ -1,3 +1,11 @@
+I take technical interviews as a good opportunities to learn and exchange knowledge with people from other companies. Some software engineers get it, they try to challenge you, walk you through the problem, and get the best out of you while thers try to prove that you don't know, or look for a specific keywords, and treat you as an "enemy" instead of thinking of you as a future team member. 
+
+Dealer.com experience was amazing, I worked with humble people who are always willing to help, and answer your questions, in this company, I start talking as "we", because we own the product, the success, the failure and we don't blame each others. I never felt that I was on my own over the last 5 years, I would carry this experience with me wherever I go, and I will always be proud of the people I worked with.
+
+For my tribe and family in Dealer.com, I love y'all, I appreciate each one of you for the amazing spirit that you have. 
+
+On a side note, one interviewer asked me few vague questions about Spring during one of the interviews, I took these questions and with some help from our beloved developer Jeff Glatz, I turned his questions into a github repository. 
+
 # SpringCloudConfig
 Refreshing the config changes with Spring Cloud Bus
 
@@ -46,6 +54,9 @@ There are two things we added in order to do that:
   
   > spring.cloud.config.uri = http://localhost:8080
   
+  
+  
+ # Questions  
   
  #### 1) How do we handle transactions in MongoDB (if they fail)? 
  #### 2) How do we change/update configuration on the fly ? 
@@ -108,4 +119,7 @@ At that point organizing by domain produces greater coherence. The draw back is 
 internally the scoped instance (non-proxy) would be stuffed into the thread handling the request and the proxy would pull the real instance from the thread. a combination of  proxy (either java's dynamic proxy or a cglib generated proxy) + thread locals
 
 
+# Notes about vague/general questions:
 
+Pay attention to the vague/general questions. those are there to see your process in requesting clarification and the types of questions you ask to get there. those are most likely intentional to see how you handle it.
+It also would be a warning sign. if they are not intentional and they have no patience for questions, then it's a good bet that is a culture you don't want to be a part of
